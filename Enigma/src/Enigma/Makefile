@@ -1,17 +1,19 @@
-src		=	Application.cpp
-NAME	=	Enigma.so
+src		=	App.cpp
+obj		=	$(src:.cpp=.o)
+NAME	=	../libEnigma.so
 flags	=	-Werror -Wextra -Wall
 
 all: $(NAME)
 
 $(NAME): $(src)
-	g++ -c $(flags) $(src)
+	g++ -c $(flags) -fPIC $(src)
+	g++ -shared -o $(NAME) $(obj)
 
 clean:
-	rm -f $(obj)
+	@rm -f $(obj)
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
 
 re: fclean all
 
