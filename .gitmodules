@@ -1,0 +1,6 @@
+[submodule "Enigma/src/include/ft_printf"]
+	path = Enigma/src/include/ft_printf
+	url = git@github.com:sfidan42/42_01_ft_printf.git
+[submodule "Enigma/src/include/libft"]
+	path = Enigma/src/include/libft
+	url = git@github.com:sfidan42/42_00_libft.git

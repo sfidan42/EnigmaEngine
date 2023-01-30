@@ -1,4 +1,4 @@
-make_enigma		=	make -C Enigma/src/Enigma
+make_enigma		=	make -C Enigma
 make_sandbox	=	make -C Sandbox
 
 all:

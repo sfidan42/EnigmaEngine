@@ -1,7 +1,8 @@
 #ifndef APP_HPP
 # define APP_HPP
 
-#include <unistd.h>
+#include "../../include/ft_printf/ft_printf.h"
+#include "../../include/libft/libft.h"
 
 namespace Enigma
 {
@@ -12,6 +13,8 @@ namespace Enigma
 			virtual	~App();
 			void	Run();
 	};
+
+	App	*CreateApp();
 }
 
 #endif

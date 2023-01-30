@@ -8,9 +8,9 @@ namespace Enigma
 
 	void	App::Run()
 	{
-		write(1, "Hello! Here I am starting the app.\n", 36);
+		ft_printf("Hello! Here I am starting the app.\n");
 		sleep(3);
-		write(1, "Hello! Here I am stopping the app.\n", 36);
+		ft_printf("Hello! Here I am stopping the app.\n");
 		sleep(1);
 	}
 }
