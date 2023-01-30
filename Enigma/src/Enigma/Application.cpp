@@ -1,6 +1,6 @@
 #include "Application.hpp"
 
-namespace A
+namespace Enigma
 {
 	Application::Application()
 	{
@@ -14,6 +14,10 @@ namespace A
 
 	void	Application::Run()
 	{
-		while (true);
+		while (true)
+		{
+			write(1, "Hello\n", 7);
+			sleep(1);
+		}	
 	}
 }

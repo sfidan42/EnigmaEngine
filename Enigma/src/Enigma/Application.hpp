@@ -1,4 +1,6 @@
-namespace A
+#include <unistd.h>
+
+namespace Enigma
 {
 	class Application
 	{
@@ -7,5 +9,5 @@ namespace A
 			virtual ~Application();
 			void	Run();
 		
-	}
+	};
 } 
