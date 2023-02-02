@@ -24,7 +24,7 @@ sudo apt install gcc
 sudo apt install g++
 ```
 
-### Running the program:
+## Running the program:
 
 1) compile the code: `make` or `make re`
 2) run the code: `make run`
