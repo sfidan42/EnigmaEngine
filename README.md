@@ -2,10 +2,16 @@
 Enigma is the central, Sandbox the manager
 
 # Before Beginning:
+## Ubuntu 22.04LTS
 sudo apt install make
-sudo apt install make
+sudo apt install git
+sudo apt install gcc
+sudo apt install g++
+sudo apt install 
+sudo apt install git
+
 
 Run the program:
 
-1) run "make" or "make re"
-2) run "make run"
+1) compile the code: "make" or "make re"
+2) run the code: "make run"

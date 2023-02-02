@@ -1,4 +1,3 @@
-#include "../../Enigma/src/Enigma.hpp"
 #include "SandBox.hpp"
 
 SandBox::SandBox() { }
