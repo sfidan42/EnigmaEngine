@@ -7,10 +7,10 @@
 ## Before Beginning:
 ### Ubuntu 22.04LTS
 ```
-- sudo apt install **make**
-- sudo apt install **git**
-- sudo apt install **gcc**
-- sudo apt install **g++**
+sudo apt install **make**
+sudo apt install **git**
+sudo apt install **gcc**
+sudo apt install **g++**
 ```
 
 ### Run the program:
