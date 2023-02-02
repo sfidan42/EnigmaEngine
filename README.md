@@ -12,7 +12,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 
 2) to install `make` use the code below with powershell as root:
-    - choco install make
+    - `choco install make`
 3) [Install git](https://gitforwindows.org/)
 4) [Install gcc and g++, using minGW](https://www.mingw-w64.org/)
 
